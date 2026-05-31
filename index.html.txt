@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Untuk Lelakiku 🤍</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+    font-family:'Quicksand',sans-serif;
+    background:
+    radial-gradient(circle at top left,#f7e7df 0%,transparent 30%),
+    radial-gradient(circle at bottom right,#ecd8d1 0%,transparent 30%),
+    #f8f4f1;
+    overflow-x:hidden;
+}
+
+/* Dekorasi */
+
+.star{
+    position:fixed;
+    color:#d4b8a8;
+    animation:blink 3s infinite;
+    pointer-events:none;
+}
+
+.star:nth-child(1){top:10%;left:12%;}
+.star:nth-child(2){top:20%;right:15%;}
+.star:nth-child(3){bottom:18%;left:10%;}
+.star:nth-child(4){bottom:12%;right:12%;}
+
+@keyframes blink{
+    50%{
+        opacity:.3;
+        transform:scale(.8);
+    }
+}
+
+.card{
+    max-width:850px;
+    width:100%;
+    background:white;
+    border-radius:32px;
+    padding:55px;
+    position:relative;
+    box-shadow:
+    0 15px 40px rgba(0,0,0,.08);
+}
+
+.card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:8px;
+    background:linear-gradient(
+    90deg,
+    #d7b4a7,
+    #f0d5c8,
+    #d7b4a7
+    );
+}
+
+.top{
+    text-align:center;
+}
+
+.envelope{
+    font-size:42px;
+    margin-bottom:12px;
+}
+
+.title{
+    font-family:'Cormorant Garamond',serif;
+    font-size:42px;
+    color:#8d6356;
+    margin-bottom:8px;
+}
+
+.subtitle{
+    color:#9c8b84;
+    font-size:14px;
+}
+
+.line{
+    width:90px;
+    height:3px;
+    background:#ead7cf;
+    margin:25px auto 35px;
+    border-radius:20px;
+}
+
+.message{
+    color:#4f4f4f;
+    line-height:2;
+    font-size:16px;
+}
+
+.message p{
+    margin-bottom:18px;
+}
+
+.quote{
+    background:#faf6f4;
+    border-left:4px solid #d8b7ab;
+    padding:18px;
+    border-radius:12px;
+    margin:25px 0;
+    font-style:italic;
+}
+
+.note{
+    margin-top:35px;
+    background:#fffaf8;
+    border:1px dashed #e5cfc6;
+    padding:18px;
+    border-radius:15px;
+    color:#7d6a63;
+}
+
+.footer{
+    text-align:center;
+    margin-top:45px;
+}
+
+.footer .heart{
+    font-size:26px;
+    margin-bottom:10px;
+}
+
+.footer p{
+    color:#90766d;
+}
+
+.flower{
+    position:absolute;
+    font-size:28px;
+}
+
+.flower1{
+    top:20px;
+    left:25px;
+}
+
+.flower2{
+    top:20px;
+    right:25px;
+}
+
+.flower3{
+    bottom:20px;
+    left:25px;
+}
+
+.flower4{
+    bottom:20px;
+    right:25px;
+}
+
+@media(max-width:768px){
+
+.card{
+    padding:35px 25px;
+}
+
+.title{
+    font-size:32px;
+}
+
+.message{
+    font-size:15px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="star">✦</div>
+<div class="star">✦</div>
+<div class="star">✦</div>
+<div class="star">✦</div>
+
+<div class="card">
+
+<div class="flower flower1">🌷</div>
+<div class="flower flower2">🌷</div>
+<div class="flower flower3">🤍</div>
+<div class="flower flower4">🤍</div>
+
+<div class="top">
+<div class="envelope">💌</div>
+
+<h1 class="title">UNTUK LELAKIKU 🫶🏻</h1>
+
+<p class="subtitle">
+surat kecil dari seseorang yang sangat mencintaimu
+</p>
+
+<div class="line"></div>
+</div>
+
+<div class="message">
+
+<p>
+Hai sayang..
+</p>
+
+<p>
+To the point aja yaa. Aku mau minta maap karena udah bikin kekacauan malam tadi, aku udah bikin kamu sedih, bahkan bikin kamu kecewa sama aku. Aku bener2 nyesel sayang udah bikin kamu kek gitu. Aku janji gakkan kek gitu lagi ke depannya, maapin aku ya sayang udah bertingkah bodoh dan gatau diri.
+</p>
+
+<p>
+Kamu tau ga seberapa bencinya aku sama diri aku pas ngerasa gagal buat orang yang aku sayang? Aku gakkan maapin aku klw aku gagal jadi pasangan kamu, aku bener2 minta maap sayang..
+</p>
+
+<p>
+Semoga kamu mau maapin aku yaa dan kita kembali seperti semula, happy happy lagi, kan sebentar lagi kita ketemu, kita obatin semua rasa rindu yang udah kita pendem selama ini sayang.
+</p>
+
+<div class="quote">
+“Aku blom ngucapin sama kamu, tapi aku udah ga pegang hp 😔”
+</div>
+
+<p>
+Oiya perihal kata kamu aku ga inget soal annive kita, aku inget sayang. Malah pas aku buka kalender di buku pas hari senin itu aku mikir seperti kalimat di atas. Tapi aku ucapin di buku sayang, nanti aku kasih liat ya sayang 😊
+</p>
+
+<p>
+I'm sorry for not being the best woman for you.
+I love you and i always will, babe 🥹❤️🙏
+</p>
+
+<div class="note">
+🌷 Aku nggak berharap surat ini langsung menghapus rasa kecewa kamu. Aku cuma ingin kamu tahu kalau aku benar-benar menyesal, dan aku akan berusaha jadi lebih baik untuk kita.
+</div>
+
+</div>
+
+<div class="footer">
+<div class="heart">🤍</div>
+<p>Terima kasih karena masih menjadi rumah yang selalu ingin aku pulang.</p>
+</div>
+
+</div>
+
+</body>
+</html>
